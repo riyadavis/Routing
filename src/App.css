@@ -2,21 +2,25 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 8.5vh;
+  background-color: rgb(4, 30, 65);
+  color: rgb(250, 191, 83);
+  padding-left: 10px;
+  font-family: cursive;
 }
 
-.App-link {
-  color: #09d3ac;
+.navbar h1 {
+  font-size: 200%;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  list-style: none;
 }
